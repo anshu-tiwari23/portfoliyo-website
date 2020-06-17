@@ -1,0 +1,117 @@
+*{
+         margin:  0;
+         padding: 0px;
+         font-family: sans-serif;
+}
+body{
+  background-image:url(carpic.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+
+
+.container{
+    background: white;
+     background-size: : 400px 300px;
+
+  }
+.menu ul{
+         display: inline-flex;
+         margin: 50px;
+}
+.menu ul li{
+         list-style: none;
+         margin:  0  20px;
+         color: #b2b1b1;
+         cursor: pointer;
+}
+
+.active{
+         color: #19dafa !important;
+}
+
+
+.signup-bt{
+       top: 70px;
+       right: 200px;
+       position: absolute;
+       text-decoration: none;
+       color: #919191;
+       border: 20px solid transparent;
+       border-radius: 20px;
+       background-image: linear-gradient(#42455a,#42455a),radial-gradient(
+      circle at top left,#42455a,#42455a);
+      background-origin: border-box;
+      background-clip: content-box,border-box;
+}
+Signup-bt span{
+         display: block;
+         padding: 8px,22px;
+       }
+.banner{
+  width: 80%;
+  height: 90%;
+  top: 25%;
+  left: 700px;
+  position:absolute;
+  color: black;
+}
+.app-text h1{
+  font-size: 60;
+}
+.app-text p{
+  font-size: 40;
+}
+.play-btn{
+  margin-left: 300px;
+  color: white;
+  display: inline-flex;
+}
+.play-btn-inner{
+  width: 80px;
+  height: 40px;
+  left:900px;
+  border:2px solid transparent;
+  border-radius: 1200%;
+  background-image:  linear-gradient(#42455a,#42455a),radial-gradient(
+  circle at top left,#42455a,#42455a);
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+  text-align: center;
+
+}
+.play-btn-inner .fa{
+
+  font-size: 40px;
+  cursor: pointer;
+}
+small{
+   margin:auto 20px;
+   cursor: pointer;
+   font-size: 25px;
+   color: black;
+   letter-spacing: 3px;
+ }
+ .search-box{
+   position: absolute;
+   top: 70%;
+   left:30px;
+   transform: translate(-50%,-50%);
+   background:white;
+   height: 40px;
+   border-radius: 20px;
+   padding: 10px;
+}
+.quick-link ul{
+  display: inline-flex;
+  margin: 25px
+text-align: center;
+
+}
+.quick-links ul li{
+  list-style: none;
+  margin-left:0 50px;
+  cursor: pointer;
+}
